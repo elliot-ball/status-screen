@@ -1,0 +1,116 @@
+/* Colours */
+.view-cap, .view-container-border {
+    background-color: #333;
+}
+
+.calendar body {
+    background-color: #333;
+}
+
+.mv-daynames-table {
+    background: #eeeeee;
+    color: #333;
+}
+
+.mv-event-container {
+    background: #333333;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.st-dtitle-nonmonth {
+    background: #333;
+    color: #868686;
+}
+
+.st-dtitle {
+    border-left: 1px solid #eee;
+    border-top: 1px solid #eee;
+/*     border-right: 1px solid #eeeeee; */
+    background: #333333;
+    color: #eee;
+    padding: 10px;
+}
+
+.st-bg-today, .st-bg-td-first {
+    background: #eeeeee;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    color: #333;
+}
+.te {
+    color: #eeeeee !important;
+}
+
+
+.ca-evp5.rb-n {
+    background-color: #eeeeee !important;
+    color: #333;
+}
+
+td#dateEditableBox1 {
+    color: #eeeeee;
+}
+
+/* td.st-c {
+    border-left: 1px solid #eee;
+}
+
+td.st-bg.st-bg-fc {
+    border-left: 1px solid #eee;
+} */
+
+/* Hide unwated info / actions */
+table#footer1 {
+    display: none;
+}
+
+td.date-nav-buttons {
+    display: none;
+}
+
+td#dateMenuArrow1 {
+    display: none;
+}
+
+td#calendarTabs1 {
+    display: none;
+}
+
+td.calendar-nav {
+    display: none;
+}
+
+/* Print buttons */
+table.nav-table td:nth-of-type(5),
+table.nav-table td:nth-of-type(6) {
+    display: none;
+}
+
+span#calendarTitle {
+    display: none;
+}
+
+td.st-c.st-s {border-left: 1px solid #eeeeee;}
+
+tr {
+}
+
+table.st-bg-table {
+    border-left: 1px solid #eeeeee;
+}
+
+tr td.st-c:nth-of-type(7) {
+    border-right: 1px solid #eeeeee;
+}
+
+tr td.st-bg:nth-of-type(7) {
+tr td.st-c.st-s: nth-of-type(7);
+    border-right: 1px solid #eeeeee;
+}
+
+tr td.st-dtitle:nth-of-type(7) {
+    border-right: 1px solid #eeeeee;
+}
+
+td.st-dtitle.st-dtitle-today {/* border-left: 1px solid #eee; *//* border-top: 1px solid #eee; */border-right: 1px solid #eeeeee;background: #eeeeee;color: #333;/* padding: 10px; */}

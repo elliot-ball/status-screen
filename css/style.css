@@ -1,0 +1,38 @@
+@font-face {
+    font-family: nexaBold;
+    src: url(../fonts/Nexa-Bold.otf);
+}
+@font-face {
+    font-family: nexaLight;
+    src: url(fonts/Nexa-Light.otf);
+}
+
+body{
+background-color:#333;
+color:#eee;
+font-family: nexaBold;
+text-align:center;
+padding: 100px;
+}
+
+
+#clock {
+  font-size:20em;
+  cursor:pointer;
+}
+
+.yellow{
+background-color:#fd9;
+color:#333;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 1026px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 1150px solid #eee;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
